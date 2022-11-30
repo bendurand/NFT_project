@@ -1,0 +1,19 @@
+{
+    "attributes": [
+      {
+        "trait_type": "Object",
+        "value": "Rugby Match Ticket"
+      },
+      {
+        "trait_type": "Stadium",
+        "value": "Stade de France"
+      },
+      {
+        "trait_type": "Category",
+        "value": 3
+      }
+    ],
+    "description": "Non fungeable rugby match ticket. This ticket can be combined with another one to obtain a greater seat.",
+    "image": "https://gateway.pinata.cloud/ipfs/QmVTBbjw8gF5hwkYKnUkycJhK3VCQENWm5r4topyEDmgK5?filename=NFT_france_allblacks_bleu.png",
+    "name": "Rugby Match Ticket France / All Blacks 2021"
+  }
