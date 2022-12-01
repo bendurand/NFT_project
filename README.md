@@ -11,3 +11,7 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+
+https://testnets.opensea.io/collection/france-allblacks-2021-nft-tickets
+
+https://rugby-match-nft.my.canva.site/#page-0
