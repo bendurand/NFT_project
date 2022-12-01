@@ -10,10 +10,10 @@
       },
       {
         "trait_type": "Category",
-        "value": 4
+        "value": "4"
       }
     ],
     "description": "Non fungeable rugby match ticket. This ticket can be combined with another one to obtain a greater seat.",
-    "image": "https://gateway.pinata.cloud/ipfs/QmePapaXEVfiNwxYeRh2dy7dx6wQKcAhu2yVfRLYemgrNH/NFT_france_allblacks_vert.png",
+    "image": "ipfs://QmX7Xpnokrb2nPQh5VZoX6pCRZ21dheRnjd9Ty8W6L2x5X",
     "name": "Rugby Match Ticket France / All Blacks 2021"
   }
