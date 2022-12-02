@@ -10,7 +10,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 contract tiketEvent is ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
-
+    
     constructor() ERC721("ticket event", "TE") {}
 
     function mintNFT(address recipient, string memory tokenURI)
@@ -25,5 +25,15 @@ contract tiketEvent is ERC721URIStorage, Ownable {
 
         return newItemId;
     } 
+
+ 
+  function fusion(uint256 tokenIdA, uint256 tokenIdB, address user, string memory newTokenURI)
+    public
+        {
+            _burn(tokenIdA);
+            _burn(tokenIdB);
+            mintNFT(user, newTokenURI);
+
+        }
 
 }

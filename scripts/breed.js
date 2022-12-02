@@ -21,10 +21,10 @@ async function main() {
   const TiketEvent = await hre.ethers.getContractFactory("tiketEvent");
   const tiketEvent = await TiketEvent.attach(_smart_contract_address);
 
-  await tiketEvent.mintNFT(_user_address, _category4);
+  await tiketEvent.fusion(9,10,_user_address, _category3);
 
   console.log(
-    ` deployed to ${tiketEvent.address}`
+    ` breeded and deployed to ${tiketEvent.address}`
   );
 }
 
